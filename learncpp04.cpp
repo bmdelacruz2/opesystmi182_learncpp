@@ -1,22 +1,25 @@
 #include <stdio.h>
 
-int main()
-{
-    /* Loop counter variable declaration */
-    int i, j;
+   #include<iostream>
+   #include<iomanip>
+   using namespace std;
+   int main()
+   { 
+   int i,j;    
+   for(i = 1;i <= 5;++i)
+   {
 
-    /* Outer loop */
-    for(i=1; i<=10; i++)
-    {
-        /* Inner loop */
-        for(j=1; j<=5; j++)
-        {
-            printf("%d\t", (i*j));
-        }
 
-        /* Print a new line */
-        printf("\n");
-    }
+       for(j = 1;j <= 10;++j)
+          cout<<setw(4)<<j*i;
 
-    return 0;
-}
+       cout<<endl;
+       
+
+       for(j = 2;j <= 10;++j)
+
+       cout<<endl;
+
+   }
+   return 0;
+   }
