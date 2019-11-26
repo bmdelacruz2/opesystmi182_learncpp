@@ -17,3 +17,6 @@ int main()
         /* Print a new line */
         printf("\n");
     }
+
+    return 0;
+}
